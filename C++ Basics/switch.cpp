@@ -59,4 +59,38 @@ int main(){
         std::cout<<"Please only enter numbers between (1-12)";
         break;
     }
+    return 0;
+}
+
+//Example - 2
+
+#include <iostream>
+
+int main(){
+    char grade;
+    std::cout<<"What is your grade (A-D) : ";
+    std::cin>>grade;
+    
+    switch(grade){
+        case 'A':
+            std::cout<<"Well Performed";
+            break;
+            
+        case 'B':
+            std::cout<<"Nicely Performed";
+            break;
+            
+        case 'C':
+            std::cout<<"Improvement isn't optional";
+            break;
+            
+        case 'D':
+            std::cout<<"Failed!!";
+            break;
+            
+        default:
+            std::cout<<"Grades are only allowed in between (A-D)";
+            break;
+    }
+    return 0;
 }

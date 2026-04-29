@@ -54,5 +54,9 @@ int main(){
         case 12: 
         std::cout<<"It's December";
         break;
+        
+        default:
+        std::cout<<"Please only enter numbers between (1-12)";
+        break;
     }
 }
